@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar-content">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SitePoint</a>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar-content">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Board of Members</a></li>
+                <li><a href="#">Developers Team</a></li>
+                <li><a href="#">Design Team</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Share holders</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="page-header">
+        <h1>Chapter 3 <small>Exploring Bootstrap components</small></h1>
+      </div><br />
+      <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="active">Author</li>
+      </ol><br />
+      <h3>
+        Jump Start bootstrap<span class="label label-default">New</span>
+      </h3>
+      <a href="#" class="btn btn-primary">Click Here</a><br /><br />
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+      <button type="button" class="btn btn-primary">Default button</button>
+      <button type="button" class="btn btn-primary btn-sm">Small</button><br />
+      <span class="glyphicon glyphicon-heart"></span>
+      <div class="well well-lg">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis esse reiciendis repellat, unde, voluptas quis delectus voluptatibus vitae, aut explicabo dolorum neque amet? Et ab placeat sunt modi, nobis aspernatur?</p>
+      </div>
+      <a href="#" class="btn btn-primary btn-lg">Inbox <span class="badge">23</span></a><br /><br />
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          ATTENTION
+        </div>
+        <div class="panel-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vitae, molestias. Pariatur vero, aliquid facilis commodi modi nostrum, repellendus accusantium corporis dolores sapiente ducimus fugiat? Itaque maiores, tempora dolores tempore!
+        </div>
+        <div class="panel-footer">
+          <a href="#" class="btn btn-danger btn-sm">Agree</a>
+          <a href="#" class="btn btn-default btn-sm">Decline</a>
+        </div>
+      </div>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#">About</a></li>
+        <li><a href="#">Activity</a></li>
+        <li><a href="#">Linked Pages</a></li>
+      </ul><br />
+      <ul class="nav nav-pills">
+        <li class="active"><a href="">About</a></li>
+        <li><a href="#">Activity</a></li>
+        <li><a href="#">Linked Pages</a></li>
+      </ul><br />
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="">About</a></li>
+        <li><a href="#">Activity</a></li>
+        <li><a href="#">Linked Pages</a></li>
+      </ul>
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="img/profile.JPG" alt="Syed Fazle Rahman">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Awesome piece of work!</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quisquam quos, dicta consequatur, autem ipsam cum enim molestias est obcaecati error atque sunt nesciunt impedit, velit ullam. Deserunt, fugit, ex.</p>
+          <!-- second media Object -->
+          <div class="media">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="img/profile.JPG" alt="Syed Fazle Rahman">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">Awesome piece of work!</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quisquam quos, dicta consequatur, autem ipsam cum enim molestias est obcaecati error atque sunt nesciunt impedit, velit ullam. Deserunt, fugit, ex.</p>
+            </div>
+          </div>
+        </div>
+      </div><br />
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="thumbnail">
+            <img src="img/apple.png" alt="">
+            <div class="caption">
+              <h3>apple</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dicta pariatur, error culpa consequuntur adipisci sint vitae, deleniti est quod officia voluptatem. Magnam impedit error sapiente quos nemo dolores perferendis.</p>
+              <p><a href="#" class="btn btn-primary">Read More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="thumbnail">
+            <img src="img/google.png" alt="">
+            <div class="caption">
+              <h3>google</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non nemo eius nisi possimus optio recusandae repudiandae sapiente numquam laboriosam nobis itaque sed, eveniet alias unde totam excepturi architecto ipsam, neque.</p>
+              <p><a href="#" class="btn btn-primary">Read More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="thumbnail">
+            <img src="img/amazon.png" alt="">
+            <div class="caption">
+              <h3>amazon</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dicta pariatur, error culpa consequuntur adipisci sint vitae, deleniti est quod officia voluptatem. Magnam impedit error sapiente quos nemo dolores perferendis.</p>
+              <p><a href="#" class="btn btn-primary">Read More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="thumbnail">
+            <img src="img/microsoft.png" alt="">
+            <div class="caption">
+              <h3>microsoft</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime cupiditate unde pariatur magni ratione. Deserunt molestiae sed in, quo dignissimos, earum dolorum et, architecto aliquid temporibus reiciendis non ipsum maxime.</p>
+              <p><a href="#" class="btn btn-primary">Read More</a></p>
+            </div>
+          </div>
+        </div>
+      </div><br />
+      <h2>My Mailbox</h2>
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-success">Inbox<span class="badge">14</span></li>
+        <li class="list-group-item">Sent<span class="badge">3</span></li>
+        <li class="list-group-item">Drafts<span class="badge">5</span></li>
+        <li class="list-group-item">Deleted<span class="badge">7</span></li>
+        <li class="list-group-item">Spam<span class="badge">30</span></li>
+      </ul><br />
+      <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">Item heading</h4>
+        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere modi assumenda aspernatur minus labore sapiente tenetur fugit exercitationem, voluptate accusantium delectus porro, et ea dolorem voluptates, nulla veritatis eaque ducimus.</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Item heading</h4>
+        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere modi assumenda aspernatur minus labore sapiente tenetur fugit exercitationem, voluptate accusantium delectus porro, et ea dolorem voluptates, nulla veritatis eaque ducimus.</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Item heading</h4>
+        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere modi assumenda aspernatur minus labore sapiente tenetur fugit exercitationem, voluptate accusantium delectus porro, et ea dolorem voluptates, nulla veritatis eaque ducimus.</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Item heading</h4>
+        <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere modi assumenda aspernatur minus labore sapiente tenetur fugit exercitationem, voluptate accusantium delectus porro, et ea dolorem voluptates, nulla veritatis eaque ducimus.</p>
+      </a><br />
+
+    <form class="form">
+      <div class="form-group">
+        <label for="nameField">Name</label>
+        <input type="text" class="form-control" id="nameField" placeholder="Your Name" />
+      </div>
+      <div class="form-group">
+        <label for="emailField">Email</label>
+        <input type="email" class="form-control" id="emailField" placeholder="Your Email" />
+      </div>
+      <div class="form-group">
+        <label for="phoneField">Phone</label>
+        <input type="email" class="form-control" id="phoneField" placeholder="Your Phone Number" />
+      </div>
+      <div class="form-group">
+        <label for="descField">Description</label>
+        <textarea class="form-control" id="descField" placeholder="Your Comments"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="reset" class="btn btn-default">Reset</button>
+    </form>
+    <br /><br />
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="nameField" class="col-xs-2">Name</label>
+        <div class="col-xs-10">
+          <input type="text" class="form-control" id="nameField" placeholder="Your Name" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="emailField" class="col-xs-2">Email</label>
+        <div class="col-xs-10">
+          <input type="text" class="form-control" id="emailField" placeholder="Your Email" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="phoneField" class="col-xs-2">Phone</label>
+        <div class="col-xs-10">
+          <input type="email" class="form-control" id="phoneField" placeholder="Your Phone Number" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="descField" class="col-xs-2">Description</label>
+        <div class="col-xs-10">
+          <textarea class="form-control" id="descField" placeholder="Your Comments"></textarea>
+        </div>
+      </div>
+      <div class="col-xs-10 col-xs-offset-2">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-default">Reset</button>
+      </div>
+    </form><br /><br /><br />
+    <div class="form-group has-success">
+      <label class="control-label" for="inputField">
+        Input with success
+      </label>
+      <input type="text" class="form-control" id="inputField">
+    </div><br /><br />
+    <input class="form-control input-lg" placeholder="Larger Input Field">
+    <input class="form-control" placeholder="Larger Input Field">
+    <input class="form-control input-sm" placeholder="Larger Input Field"><br />
+    <input class="form-control" type="text" placeholder="Disabled input here..." disabled><br /><br />
+    <div class="well well-sm">
+      <form class="form-inline">
+        <div class="form-group">
+          <input type="email" class="form-control" id="emailField" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" id="passwordField" placeholder="Password">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Remember me
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" value="Male"> Male
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
