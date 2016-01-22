@@ -19,21 +19,16 @@
         <button type="button" class="close" data-dismiss="alert">&times;</button>
         Amount has been transferred successfully. Go to <a href="#" class="alert-link">account page</a>
       </div>
-        <div class="btn-group" data-toggle="buttons">
-          <label class="btn btn-default">
-            <input type="checkbox"> Option 1
-          </label>
-          <label class="btn btn-default">
-            <input type="checkbox"> Option 2
-          </label>
-          <label class="btn btn-default">
-            <input type="checkbox"> Option 3
-          </label>
-        </div>
+        <button id="myLoadingButton" type="button" class="btn btn-primary" data-loading-text="loading stuff...">
+          Load data
+        </button>
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
+      $('#myLoadingButton').click(function(){
+        $(this).button('loading');
+      });
       $(document).ready(function(){
         $('.myDropdownHandle').dropdown('toggle');
       });
