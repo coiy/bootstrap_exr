@@ -12,6 +12,9 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style type="text/css">
+      .scrollspy-example{ position:relative; height:200px; margin-top:10px; overflow:auto}
+    </style>
   </head>
   <body>
     <div class="container">
@@ -35,23 +38,26 @@
           </div>
         </div>
       </nav>
+      <div data-spy="scroll" data-target="#navbarExample" data-offset="0" class="scrollspy-example">
+
+        <h4 id="Home">Home</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A officiis illo quos illum quasi aperiam, neque vitae incidunt sint corporis natus alias assumenda amet deleniti sunt ad, nostrum, tenetur harum!</p>
+
+        <h4 id="about">About</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi cumque earum, et incidunt tempora, excepturi exercitationem. Delectus perspiciatis, possimus, autem quisquam corporis atque excepturi at ullam eaque, temporibus enim molestiae.</p>
+
+        <h4 id="contact">Contact Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iusto doloremque beatae cum nisi doloribus maiores consequatur voluptatibus id at modi repudiandae, obcaecati, dolorum consectetur voluptate nostrum ducimus aspernatur eum!</p>
+
+        <h4 id="map">Map</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam sequi laudantium voluptas temporibus ea quae, accusamus. Natus provident ipsam totam! Veritatis enim sint, sed reiciendis hic! Omnis sequi, qui quos.</p>
+
+      </div>
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
-      $('#myLoadingButton').click(function(){
-        $(this).button('loading');
-      });
-      $(document).ready(function(){
-        $('.myDropdownHandle').dropdown('toggle');
-      });
 
-      $('.alert').on('close.bs.alert', function () {
-          console.log("Closing alert..");
-      });
-      $('.alert').on('closed.bs.alert', function () {
-        console.log("Alert closed!");
-      });
     </script>
   </body>
 </html>
