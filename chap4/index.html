@@ -92,10 +92,15 @@
                   </div>
               </div>
             </div>
-          </div>
+            <br><br>
+
+            <!-- Tooltip -->
+          <button type="button" class="btn btn-default tooltipButton" data-toggle="tooltip" data-placement="bottom" title="I am a Bootstrap button">Who am I?</button>
 
           <br><br>
-    </div>
+
+
+          </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
@@ -103,7 +108,8 @@
         $('.collapse').collapse({
                     toggle: false
             });
-      )};
+        $('.tooltipButton').tooltip();
+      });
     </script>
 
 
