@@ -94,21 +94,27 @@
             </div>
             <br><br>
 
-            <!-- Tooltip -->
+          <!-- Tooltip -->
           <button type="button" class="btn btn-default tooltipButton" data-toggle="tooltip" data-placement="bottom" title="I am a Bootstrap button">Who am I?</button>
 
           <br><br>
 
+          <!-- Popover -->
+          <button type="button" class="btn btn-danger popoverButton" data-toggle="popover" data-placement="bottom" data-content="Lorem Ipsum Donor." title="This is a demo popover">
+            Click Me!
+          </button>
 
           </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script type="text/javascript">
+      var options = { animation: true, placement: "right" };
       $(document).ready(function(){
         $('.collapse').collapse({
                     toggle: false
             });
         $('.tooltipButton').tooltip();
+        $('.popoverButton').popover(options);
       });
     </script>
 
